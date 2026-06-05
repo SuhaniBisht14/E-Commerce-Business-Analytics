@@ -19,8 +19,12 @@ SELECT SUM(payment_value) AS total_revenue
 FROM order_payments;
 
 -- 6. Average Order Value
-SELECT AVG(payment_value) AS average_order_value
-FROM order_payments;
+SELECT AVG(order_total) AS average_order_value
+FROM (
+    SELECT order_id, SUM(payment_value) AS order_total
+    FROM order_payments
+    GROUP BY order_id
+) t;
 
 -- 7. Highest Payment
 SELECT MAX(payment_value) AS highest_payment
@@ -62,7 +66,9 @@ ORDER BY total_orders DESC
 LIMIT 10;
 
 -- 15. Top 10 Products by Sales
-SELECT product_id, COUNT(*) AS total_sales
+SELECT product_id,
+       COUNT(order_id) AS total_sales,
+       SUM(price) AS revenue
 FROM order_items
 GROUP BY product_id
 ORDER BY total_sales DESC
@@ -87,7 +93,6 @@ FROM sellers
 GROUP BY seller_state;
 
 -- 20. Revenue by Payment Type
-SELECT payment_type,
-SUM(payment_value) AS revenue
+SELECT SUM(payment_value) AS total_revenue
 FROM order_payments
-GROUP BY payment_type;
+GROUP BY order_id;
