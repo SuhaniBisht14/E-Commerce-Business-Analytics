@@ -15,8 +15,12 @@ SELECT COUNT(DISTINCT product_id) AS total_products
 FROM products;
 
 -- 5. Total Revenue
-SELECT SUM(payment_value) AS total_revenue
-FROM order_payments;
+SELECT SUM(order_total) AS total_revenue
+FROM (
+    SELECT order_id, SUM(payment_value) AS order_total
+    FROM order_payments
+    GROUP BY order_id
+) t;
 
 -- 6. Average Order Value
 SELECT AVG(order_total) AS average_order_value
