@@ -1,0 +1,78 @@
+📊 Dashboard Walkthrough
+
+📄 Page 1 - Executive Overview
+
+This page provides a high-level summary of the business using key performance indicators (KPIs) such as total orders, total customers, total revenue, and overall business performance trends.
+
+📄 Page 2 - Detail Analysis
+
+This page provides a detailed analysis of business performance by allowing deeper exploration of sales patterns, customer activity, and operational trends.
+
+📄 Page 3 - Sales & Category Analysis
+
+This page analyzes sales performance across different product categories, identifies top-performing categories, and highlights revenue distribution.
+
+📄 Page 4 - Customer Reviews
+
+This page evaluates customer satisfaction by analyzing ratings, review patterns, and identifying areas with higher customer complaints.
+
+📄 Page 5 - Delivery Operations
+
+This page monitors delivery efficiency, tracks delivery delays, and identifies regions that require operational improvements.
+
+📄 Page 6 - Seller & Geography
+
+This page analyzes seller performance and visualizes the geographical distribution of sales to understand regional business performance.
+
+📄 Page 7 - Payment Behavior
+
+This page studies customer payment preferences, compares payment methods, and identifies payment behavior trends.
+
+💼 Management Recommendations
+1. Improve delivery operations in delayed regions
+
+Focus on optimizing logistics and partnering with efficient delivery providers in regions with higher delivery times to improve customer satisfaction.
+
+2. Promote digital payment adoption
+
+Encourage customers to use digital payment methods by offering discounts, cashback, or reward points to reduce dependency on Cash on Delivery (COD).
+
+3. Strengthen customer retention strategies
+
+Introduce loyalty programs, personalized offers, and targeted campaigns to increase repeat purchases and improve customer lifetime value.
+
+4. Diversify the seller network
+
+Onboard more sellers and support underperforming sellers to reduce dependency on a small group of high-performing sellers.
+
+5. Improve product quality and customer experience
+
+Monitor low-rated products, improve quality checks, and address customer complaints to increase customer satisfaction and reduce negative reviews.
+
+# Data Limitations
+
+1. The dashboard analysis is based on the available historical e-commerce dataset and may not represent current business performance.
+
+2. The analysis does not use real-time data; therefore, the insights may change if new transactions are added.
+
+3. Some dashboard findings may be affected by missing, incomplete, or inconsistent values present in the original dataset.
+
+4. External factors such as festivals, promotional campaigns, seasonal demand, and economic conditions were not included in this analysis.
+
+5. Customer behavior, payment preferences, and delivery patterns can change over time, so the results should be interpreted accordingly.
+
+6. The dashboard focuses only on the provided e-commerce data and does not include additional business information such as inventory, marketing, or customer support data.
+
+# Improvement List
+
+1. Integrate real-time data sources to keep the dashboard updated automatically.
+
+2. Add forecasting visuals to predict future sales trends and customer demand.
+
+3. Include customer segmentation analysis to better understand customer groups and purchasing behavior.
+
+4. Develop advanced seller performance KPIs for deeper seller evaluation.
+
+5. Add region-wise profitability analysis to identify high-performing and low-performing areas.
+
+6. Expand the dashboard by incorporating marketing, inventory, and customer support data for a more comprehensive business view.
