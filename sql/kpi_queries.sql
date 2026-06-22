@@ -63,20 +63,18 @@ FROM order_payments
 GROUP BY payment_type;
 
 -- 14. Top 10 Sellers by Orders
-SELECT seller_id, COUNT(*) AS total_orders
+SELECT TOP 10 seller_id, COUNT(*) AS total_orders
 FROM order_items
 GROUP BY seller_id
-ORDER BY total_orders DESC
-LIMIT 10;
+ORDER BY total_orders DESC;
 
 -- 15. Top 10 Products by Sales
-SELECT product_id,
+SELECT TOP 10 product_id,
        COUNT(order_id) AS total_sales,
        SUM(price) AS revenue
 FROM order_items
 GROUP BY product_id
-ORDER BY total_sales DESC
-LIMIT 10;
+ORDER BY total_sales DESC;
 
 -- 16. Average Freight Value
 SELECT AVG(freight_value) AS avg_freight
@@ -97,6 +95,6 @@ FROM sellers
 GROUP BY seller_state;
 
 -- 20. Revenue by Payment Type
-SELECT SUM(payment_value) AS total_revenue
+SELECT payment_type, SUM(payment_value) AS total_revenue
 FROM order_payments
-GROUP BY order_id;
+GROUP BY payment_type;
