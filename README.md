@@ -52,11 +52,6 @@ The project was completed over four weeks and covers data preparation, explorato
 - Prepared final report and presentation
 - Documented project files
 
-#Dashboard Overview
-
-<img width="608" height="328" alt="2 detail analysis page" src="https://github.com/user-attachments/assets/61a99c39-c026-4890-b128-0e8faa21e8bf" /> <img width="610" height="331" alt="4 cutomer reviews page" src="https://github.com/user-attachments/assets/6a6f15ef-5fa0-4fb6-945b-a90e258057c7" />
-
-
 📈 Key Business Insights
 
 - Most orders were placed in 2017.
