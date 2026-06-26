@@ -51,6 +51,9 @@ The project was completed over four weeks and covers data preparation, explorato
 - Created business recommendations
 - Prepared final report and presentation
 - Documented project files
+- 
+#Dashboard Overview
+<img width="608" height="328" alt="2 detail analysis page" src="https://github.com/user-attachments/assets/61a99c39-c026-4890-b128-0e8faa21e8bf" />
 
 📈 Key Business Insights
 
