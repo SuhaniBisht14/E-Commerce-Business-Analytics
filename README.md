@@ -18,9 +18,12 @@ The project was completed over four weeks and covers data preparation, explorato
 🛠️ Tools Used
 
 - Power BI
+- Power Query
 - SQL
 - Excel
+- DAX
 - Google Docs
+- Git Hub
 
 📅 Internship Timeline
 
